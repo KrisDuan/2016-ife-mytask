@@ -16,11 +16,14 @@ nav#banner{
 	padding: 0px;
 	height: 60px;
 }
-nav#banner p{
+nav#banner #kobe{
+	margin-left: 50px;
 	float: left;
 }
 nav#banner ul{
+
 	margin: 10px;
+	margin-right: 50px;
 	list-style-type: disc;
 	float: right;
 }
@@ -28,10 +31,19 @@ nav#banner li{
 	float: left;
 	margin: 10px;
 }
-nav#banner ul li a{
+a.gps4:visited
+{
+	color: gray;
+}
+a.gps:visited
+{
 	color: white;
+}
+
+nav#banner ul li a{
 	font-weight: bold;
 	text-decoration: none;
+
 }
 
 section#main article{
@@ -39,6 +51,10 @@ section#main article{
 	width: 94%;
 	margin: 20px auto;
 	padding: 20px;
+}
+
+.list2{
+	list-style-type: none;
 }
 
 aside#sidebar{
