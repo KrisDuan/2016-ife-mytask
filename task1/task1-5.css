@@ -15,17 +15,24 @@ body{
 	margin: 0px;
 	padding: 0px;
 	height: 60px;
+	position: relative;
 }
 #banner #kobe{
 	margin-left: 50px;
-	float: left;
+	/*float: left;*/
+	position: absolute;
+	top: 0px;
+	left: 0px;
 }
 #banner ul{
 
 	margin: 10px;
 	margin-right: 50px;
 	list-style-type: disc;
-	float: right;
+	/*float: right;*/
+	position: absolute;
+	top: 0px;
+	right: 0px;
 }
 #banner li{
 	float: left;
@@ -57,7 +64,8 @@ a.gps:visited
 	list-style-type: none;
 }
 section{
-	margin-right: 470px;
+	margin-right: 450px;
+	margin-left: 10px;
 	
 }
 
@@ -86,7 +94,7 @@ section{
 
 #sidebar{
 	background-color: white;
-	width: 400px;
+	width: 350px;
 	margin: 20px;
 	padding: 20px;
 	float: right;
