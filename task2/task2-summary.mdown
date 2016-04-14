@@ -1,0 +1,27 @@
+
+
+task2-13:
+如果我们获得了一个<input>节点的引用，就可以直接调用value获得对应的用户输入值：
+
+```
+<input type="text" id="email">
+var input = document.getElementById('email');
+input.value; // '用户输入的值'
+```
+具体见http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/001434499922277b890fd537901490a84fc24b2b8b8867e000
+
+
+
+  var $ = function (id) {
+	  return document.getElementById(id);
+  }
+  $("button").onclick = function(){
+	  handler();
+  }
+
+  task2-14:
+  数组排序：
+  参考1：http://www.w3school.com.cn/jsref/jsref_sort.asp
+  参考2：http://www.jb51.net/article/46162.htm
+
+  使用firstChild等类似选取元素时，元素必须存在，否则无法选取
